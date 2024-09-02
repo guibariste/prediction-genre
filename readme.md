@@ -52,13 +52,24 @@ python -m venv env
 ## **Installation des dépendances**
 Une fois l'environnement virtuel activé, vous pouvez installer les dépendances nécessaires:
 ```bash
-pip install requests bs4 pandas
+pip install pandas joblib tensorflow keras scikit-learn
 ```
-Mettre le fichier python dans le repertoire de l'environnement virtuel.
+Mettre les fichier python dans le repertoire de l'environnement virtuel.
 
 
 ## **Exécution du script**
 Après avoir installé toutes les dépendances, vous pouvez exécuter le script en utilisant la commande suivante :
 ```bash
-python scrapping.py
+python "nom du fichier".py
+
+
+
 ```
+Pour tester un prenom possibilité de mettre un prenom en argument:
+```bash
+python "nom du fichier test".py "prenom"
+
+
+
+```
+
